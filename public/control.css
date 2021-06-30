@@ -1,0 +1,30 @@
+.controller{
+    width: 75rem;
+    margin-bottom: 5px;
+    /* height: 5rem; */
+    position:fixed;
+    z-index: 5;
+    /* bottom: 0px; */
+    margin-top: 3rem;
+    /* margin-left: 15px; */
+    /* left: 20px; */
+    
+}
+.screens{
+    position: fixed;
+    right: 0px;
+    top:0px;
+    display: flex;
+    flex-direction: column;
+    min-width: 21rem;
+    width: 336px;
+    height: 500px;
+    /* background-color: #66A5Ad; */
+}
+.chatter{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 336px;
+    height: 253px;
+}
