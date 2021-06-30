@@ -108,6 +108,7 @@ function messageReceived(data){
 		allSockets[data.to].emit('message', data);
 	}	
 }
+// server.listen(process.env.PORT || 3030);
 
-server.listen(5000,httpServerConnected );
+server.listen(process.env.PORT || 5000 , httpServerConnected );
 io.on('connection', ioServerConnected);
